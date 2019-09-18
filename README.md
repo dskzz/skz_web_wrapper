@@ -3,6 +3,7 @@ This wraps www::mechanize and duplicates the basic function calls, biggest thing
 
 #skz_util
 This has a bunch of cool stuff, everything from using regexes to clean a string or an array, manipulates dates to different dates (even written dates to MySQL format), use regex to extract a link, a date, a number, some pretty print functions, etc etc.   BTW don't "use" it, just make sure its in your library and call function directly 
+
      skz_util::clean_all( $str );
 
 Here's a list of all the stuff in skz_util. 
