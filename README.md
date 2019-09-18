@@ -2,7 +2,8 @@
 This wraps www::mechanize and duplicates the basic function calls, biggest thing is auto requesting after timeouts.  Will first pause rand() < 30 seconds, then after 3 failures it will pause 60 seconds, then 5 minutes...this will also start to change and use random user agents.  
 
 #skz_util
-This has a bunch of cool stuff, everything from using regexes to clean a string or an array, manipulates dates to different dates (even written dates to MySQL format), use regex to extract a link, a date, a number, some pretty print functions, etc etc.   BTW don't "use" it, just make sure its in your library and call function directly skz_util::clean_all( $str );
+This has a bunch of cool stuff, everything from using regexes to clean a string or an array, manipulates dates to different dates (even written dates to MySQL format), use regex to extract a link, a date, a number, some pretty print functions, etc etc.   BTW don't "use" it, just make sure its in your library and call function directly 
+     skz_util::clean_all( $str );
 
 Here's a list of all the stuff in skz_util. 
 
